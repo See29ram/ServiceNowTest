@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Router" max_length="40" name="x_876137_modem_router" type="collection"/>
+    <element label="Router" max_length="40" name="x_876137_modem_router" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="DOB_Test" max_length="40" name="u_calendar_date_time_1" type="calendar_date_time"/>
+        <element label="TestField" max_length="80" name="u_field_name_2" type="field_name"/>
+    </element>
 </database>
